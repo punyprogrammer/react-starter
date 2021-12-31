@@ -1,0 +1,10 @@
+.topbar__container {
+  height: 70px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  position: sticky;
+}
+.topbar__logo__img {
+  height: 65px;
+}

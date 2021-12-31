@@ -1,0 +1,105 @@
+.main__content__container {
+  width: 85vw;
+  background-color: white;
+
+  padding: 25px;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid lightgray;
+  border-radius: 20px;
+  min-height: 100vh;
+}
+.main__content__heading {
+  display: flex;
+  justify-content: center;
+}
+.filter__header {
+  display: flex;
+  justify-content: center;
+}
+.filter__heading {
+  margin-top: 10px;
+  font-size: 18px;
+}
+.single__holiday__wrapper {
+  display: flex;
+  padding: 15px;
+  /* border: 1px solid lightgray; */
+  border-radius: 7px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  margin-top: 10px;
+}
+.result__text__title {
+  flex: 33%;
+}
+.result__text__date {
+  flex: 33%;
+}
+.result__text__notes {
+  flex: 33%;
+}
+.filter__options__container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  display: flex;
+  align-self: center;
+}
+.results__header {
+  display: flex;
+  padding: 15px;
+  /* border: 1px solid lightgray; */
+  border-radius: 7px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  margin-top: 10px;
+  background-color: #647dee;
+  color: white;
+}
+.result__header__text {
+  flex: 25%;
+}
+.timeline__filter__container__text {
+  font-size: 16px;
+  margin-right: 10px;
+}
+.filter__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttons__container {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  padding: 6px;
+}
+.filter__button,
+.clear__filter__button {
+  padding: 8px;
+  margin-right: 10px;
+  color: wheat;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.filter__button {
+  background-color: rgb(15, 143, 15);
+}
+.clear__filter__button {
+  background-color: rgb(186, 17, 17);
+}
+.filter__select {
+  background-color: white;
+  height: 25px;
+  border-radius: 6px;
+}
+.timeline__filter__container {
+  margin-right: 10px;
+}
+.date__input {
+  background-color: white;
+  height: 25px;
+  border-radius: 6px;
+}
